@@ -1,0 +1,47 @@
+[
+  {
+    "id": "job-1",
+    "title": "Senior Frontend Developer",
+    "company": "Tech Innovations Inc.",
+    "location": "New York, NY",
+    "salary_normalized": 135000,
+    "skills": [
+      "JavaScript",
+      "React",
+      "TypeScript",
+      "CSS"
+    ],
+    "date_posted": "2023-06-20",
+    "url": "https://example.com/jobs/senior-frontend-developer"
+  },
+  {
+    "id": "job-2",
+    "title": "Data Scientist",
+    "company": "Analytics Pro",
+    "location": "Remote",
+    "salary_normalized": 125000,
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Data Visualization"
+    ],
+    "date_posted": "2023-06-19",
+    "url": "https://example.com/jobs/data-scientist"
+  },
+  {
+    "id": "job-3",
+    "title": "Full Stack Developer",
+    "company": "Web Solutions",
+    "location": "San Francisco, CA",
+    "salary_normalized": 140000,
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "React",
+      "MongoDB"
+    ],
+    "date_posted": "2023-06-18",
+    "url": "https://example.com/jobs/full-stack-developer"
+  }
+]

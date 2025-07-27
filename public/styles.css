@@ -1,0 +1,169 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Dashboard Stats */
+.stat-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-5px);
+}
+
+.stat-card h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin-bottom: 5px;
+}
+
+.stat-card p {
+    color: #6c757d;
+    margin: 0;
+}
+
+/* Job Listings */
+#jobListings tr {
+    transition: background-color 0.2s ease;
+}
+
+#jobListings tr:hover {
+    background-color: rgba(13, 110, 253, 0.05);
+}
+
+/* Enhanced Job Title and Company Styling */
+#jobListings td:first-child {
+    font-size: 1.1rem;
+    color: #0d6efd;
+}
+
+#jobListings td:nth-child(2) {
+    font-weight: 600;
+    color: #495057;
+}
+
+/* Company badge styling */
+.company-badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.25rem;
+    background-color: #e9ecef;
+    color: #495057;
+    margin-right: 0.5rem;
+}
+
+/* Search Box */
+#jobSearch {
+    width: 250px;
+}
+
+#companyFilter {
+    width: 200px;
+}
+
+/* Charts */
+canvas {
+    max-height: 300px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .stat-card {
+        margin-bottom: 20px;
+    }
+    
+    #jobSearch, #companyFilter {
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+    .d-flex {
+        flex-direction: column;
+    }
+    
+    #companyFilter {
+        margin-bottom: 10px;
+    }
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    background-color: #f1f8ff;
+    border-bottom: 1px solid #e3f2fd;
+    font-weight: 600;
+}
+
+.card-header.bg-primary {
+    background-color: #0d6efd !important;
+    color: white;
+}
+
+#jobTrendChart, #salaryChart, #skillsChart, #locationChart {
+    height: 250px;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #0d6efd;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0b5ed7;
+}
+
+/* Alert page specific styles */
+#alertForm .form-control:focus {
+    border-color: #86b7fe;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+#alertsList .card {
+    transition: all 0.3s ease;
+}
+
+#alertsList .card:hover {
+    border-left: 4px solid #0d6efd;
+}
+
+.alert-dismissible {
+    position: relative;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+    }
+    
+    .col-md-6 {
+        margin-bottom: 10px;
+    }
+}
