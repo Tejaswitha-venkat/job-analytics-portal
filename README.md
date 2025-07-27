@@ -21,7 +21,7 @@
 When you start the server:
 
 1. 
-   The Express server will start on port 3000 (or the port specified in your environment variables)
+   The Express server will start on port 8080 (or the port specified in your environment variables)
 2. 
    The application will perform an initial data fetch using the fetchAndProcessJobData() function
 3. 3.
@@ -29,10 +29,10 @@ When you start the server:
 4. 
    The server will set up scheduled tasks using node-cron to update job data hourly
 5. 
-   The web interface will be available at http://localhost:3000
+   The web interface will be available at http://localhost:8080
 ## Key Features Available
 1. 
-   Job Dashboard : Access the main dashboard at http://localhost:3000
+   Job Dashboard : Access the main dashboard at http://localhost:8080
    
    - View job listings
    - See data visualizations for companies and skills
